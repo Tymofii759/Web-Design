@@ -1,5 +1,7 @@
 body {
   background-color: #f4d35e;
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -7,37 +9,51 @@ body {
 }
 
 .main-header {
-  display: flex;
-
   background-color: #083d77;
   color: #ebebd3;
 }
 .main-text {
   padding: 0;
   font-size: 16px;
+  justify-content: center;
+}
+
+.text {
+  font-size: 20px;
+  width: 800px;
 }
 
 .bombom {
-  font-size: 20px;
+  font-family: Oswald;
 }
 
 .one {
+  font-family: "Prata", serif;
 }
 
 .two {
+  font-family: "Spartan", sans-serif;
 }
 
 .three {
+  font-family: "Bebas Neue", cursive;
 }
 
 .fore {
+  font-family: "Lobster", cursive;
 }
 
 .five {
+  font-family: "Press Start 2P", cursive;
 }
 
 .six {
+  font-family: "Bad Script", cursive;
 }
 
 .seven {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
 }
